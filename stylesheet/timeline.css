@@ -1,0 +1,108 @@
+
+.design-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: light;
+    min-height: 100px;
+    padding: 50px 0;
+    font-family: Jost;
+  }
+  
+  .design {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .timeline {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+   background-color: light;
+    border-radius: 5px;
+    color: #1f2020;
+    -webkit-box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px rgb(27, 26, 26);
+          box-shadow: 5px 5px 10px #1a1a1a, -5px -5px 10px rgb(37, 36, 36);
+    padding: 1.75rem;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 1rem;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  
+  .timeline-component {
+    margin: 0px 20px 20px 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .timeline {
+      display: grid;
+      grid-template-columns: 1fr 3px 1fr;
+    }
+    .timeline-middle {
+      position: relative;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      width: 3px;
+      height: 100%;
+    }
+    .main-middle {
+      opacity: 0;
+    }
+    .timeline-circle {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-image: linear-gradient(45deg, #F27121, #E94057, #8A2387);
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+    }
+  }
+
+  /*               */
+
+  .hori-timeline .events {
+    border-top: 3px solid green;
+}
+
+.hori-timeline .events 
+.event-list {
+    position: sticky; 
+    text-align: center;
+ 
+}
+
+.hori-timeline .events 
+.event-list:before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    border-right: 2px circule #f1f3f1;
+    top: 0;
+}
+
+
+
+@media (min-width: 1300px) {
+    .hori-timeline .events 
+    .event-list {
+        display: inline-block;
+        width: 23%;
+        padding-top: 40px;
+    }
+
+   
+}
+
