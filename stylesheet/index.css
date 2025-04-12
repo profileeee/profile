@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     position:relative;
-    background: linear-gradient(rgba(0,0,0,0.2),#009688), url(../coverphoto.jpeg)no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.2),#009688), url(../stylesheet/coverphoto.jpeg)no-repeat;
     background-size:cover;
     background-position: center;
     height:600px;
@@ -140,7 +140,7 @@ p{
     float: left;
     padding: 10px;
     height: 498px;
-    background: linear-gradient(rgba(0,0,0,0.2),#009688), url(../about.jpg);
+    background: linear-gradient(rgba(0,0,0,0.2),#009688), url(../stylesheet/about.jpg);
     background-size:cover;
     background-position: center;
 }
